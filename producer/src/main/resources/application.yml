@@ -1,0 +1,12 @@
+server:
+  port: 8088
+
+spring:
+  webflux:
+    base-path: /api/v1        # <‑‑ works in WebFlux
+  kafka:
+    producer:
+      bootstrap-servers: localhost:9092
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+
