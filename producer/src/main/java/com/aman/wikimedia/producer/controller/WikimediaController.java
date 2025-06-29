@@ -6,7 +6,6 @@ import org.springframework.web.bind.annotation.RestController;
 import com.aman.wikimedia.producer.stream.WikimediaStreamConsumer;
 
 import lombok.RequiredArgsConstructor;
-import reactor.core.publisher.Mono;
 
 @RestController
 @RequiredArgsConstructor
